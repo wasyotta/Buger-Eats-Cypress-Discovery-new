@@ -1,0 +1,15 @@
+1) Para iniciar um repositório "Git" em um "Projeto ja existente" usamos o comando Git init
+
+OBS: A) após iniciar um repositório, as letras das pastas ficam totalmente verde com um (U) para identeficar como Untracked, para sinalizar que estas pastas ainda não foram adicionadas
+ao repositório
+
+B) Para Ignorar arquivos não necessários no repositório é necessário criar um arquivo chamado ".gitignore"
+e nela adicionamos as pastas que não queremos adicionar como a pasta node modules por exemplo
+
+C) após Rodar o comando "git add ." todos os arquivos do projeto ficam com a letra (A)Indicando que foram adicionados ao repositório
+
+2) O comando "git status", exibe todos os arquivos que sofretam modificações até o momento e/ou o que será adicionado ao repositório
+3) O comando "git add ." adicion ao repositório todos os arquivos e/ou pastas que foram alterados ou adicionados ao Projeto
+4) O comando"git add + nome da pasta ou arquivo" adiciona o repositório o item isolado
+5) O comando "git commit -m + (comentario/descrição)" cria uma versão do código no repositório com uma descrição informativa
+6) O comando "git config --global user.email + meu email(entre aspas duplas)" cria um autor para o projeto criado   
