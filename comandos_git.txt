@@ -18,10 +18,16 @@ F) O "GitHub" é uma plataforma onde armazenamos o código/ repositório git na 
 5) O comando "git commit -m + (comentario/descrição)" cria uma versão do código no repositório com uma descrição informativa
 6) O comando "git config --global user.email + meu email(entre aspas duplas)" cria um autor para o projeto criado
 7) Após criar o repositório na Nuvem é necessário link o projeto local ao repositório na nuvem através dos comandos
-    "git branch -M main"
+    "git branch -M main" main seria a mesma coisa que a branch master no git chama-se master no github chama-se main
+    e ao rodar este comando na máquina o git cria um repositório novo chamado main e mantém tanto a master quanto a main no repositório local(máquina)
     "git remote add origin git@github.com:wasyotta/Buger-Eats-Cypress-Discovery-new.git"
+    este comando adiciona uma origem nesse caminho do github fazendo um link entre o repositório local e github
     "git push -u origin main"
+    este comando faz a publicação de fato na branch main do repositório git
+8) caso os comandos acima logren algum erro, é necessário criar uma chave ssh para autorizar o computador a fazer alterações no repositório git
+    através do comand "ssh-keygen"
 
+    
 Sequência {1}
 
 1-  git status
