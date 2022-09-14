@@ -25,12 +25,23 @@ F) O "GitHub" é uma plataforma onde armazenamos o código/ repositório git na 
     "git push -u origin main"
     este comando faz a publicação de fato na branch main do repositório git
 8) caso os comandos acima logren algum erro, é necessário criar uma chave ssh para autorizar o computador a fazer alterações no repositório git
-    através do comand "ssh-keygen"
+    através do comand "ssh-keygen" o sistema vai gerar a chave publica no caminho C:\Users\Win10/.ssh/id_rsa.pub    
 
-    
+    em seguida é necessário autorizar a chave publica através do comando
+    cat C:\Users\Win10/.ssh/id_rsa.pub
+
+
 Sequência {1}
 
 1-  git status
 2-  git add
 4-  git status
-3 - git commit -m + (comentario/descrição)"
+3 - git commit -m + (comentario/descrição)
+
+Sequência {2}
+
+1-  git status
+2-  git add
+3-  git status
+4 - git commit -m + (comentario/descrição)
+5 - git push -u origin main
