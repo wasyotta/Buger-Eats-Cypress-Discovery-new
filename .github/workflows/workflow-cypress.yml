@@ -1,4 +1,4 @@
-ame: Cypress Regression Tests
+name: Cypress Regression Tests
 
 on: [push]
 
